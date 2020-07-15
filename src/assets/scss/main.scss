@@ -1,0 +1,19 @@
+
+
+* {
+    -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}
+$light_case: rgb(126, 199, 162);
+$dark_case: rgb(9, 110, 59);
+
+.case {
+    color: $light_case;
+}
+.case.dark {
+    color: $dark_case;
+}
+
+
+.hide {
+    visibility: hidden;
+}
